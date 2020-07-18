@@ -1,0 +1,31 @@
+*{
+    margin:10;
+    padding:0;
+}
+body{
+    background-image: url("https://i1.faceprep.in/ProGrad/animated-background.png");
+    font-family:impact;
+    font-style: normal;
+    font-weight: 100;
+    color: white;
+    padding: 2px;
+}
+header{
+    background: #7d12e8;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.grid{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cartoon img{
+    margin: 5px;
+    padding:5px;
+}
+.name{
+    grid-column:1 / span 3 ;
+    text-align: center;
+}
